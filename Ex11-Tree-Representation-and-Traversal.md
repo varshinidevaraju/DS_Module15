@@ -24,7 +24,7 @@ struct node
 {
 int value;
 struct node*left_child, *right_child;
-};*/
+};
 void display_postorder(struct node*root_node){ if(root_node)
 {
 display_postorder(root_node->left_child); display_postorder(root_node->right_child); printf("%d\n",root_node->value);
